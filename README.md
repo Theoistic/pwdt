@@ -2,14 +2,14 @@
 Password Manager
 
 ## Install:
-sudo wget https://raw.githubusercontent.com/Theoistic/pwdt/master/pwdt -O /usr/local/bin/pwdt
+```sudo wget https://raw.githubusercontent.com/Theoistic/pwdt/master/pwdt -O /usr/local/bin/pwdt```
 
 ## Recommendation:
 Change the salt value once, just so it isnt the default value you downloaded
 keep a mental note of the salt value or store is somewhere securely (offline)
 
 ### Example:
-   pwdt gmail.com          
+```pwdt gmail.com```        
    
 this will prompt you for a "MasterPassword" and will give you, your
 password for gmail.com if you have many use [username]@[domain].com
