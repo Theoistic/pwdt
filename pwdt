@@ -19,6 +19,6 @@ SALT=WsziTXk3xpZxKbd
 echo -n MasterPassword: 
 read -s password
 echo
-echo "$password $0 $SALT" | sha1sum | cut -f1 -d\ | xxd -r -p | base64 | cut -c-20
+echo ${password} $1 ${SALT} | sha1sum | cut -f1 -d\ | xxd -r -p | base64 | cut -c-20
 
 
