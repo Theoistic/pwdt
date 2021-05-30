@@ -1,5 +1,4 @@
 # pwdt
-Password Manager
 
 ## Install:
 ```sudo wget https://raw.githubusercontent.com/Theoistic/pwdt/master/pwdt -O /usr/local/bin/pwdt```
